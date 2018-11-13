@@ -7,3 +7,7 @@ for line in f:
         o.write("{0}\t{1}\n".format(store, cost))
 f.close()
 o.close()
+
+
+
+

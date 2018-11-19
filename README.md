@@ -56,8 +56,10 @@ For all categorys find category with the highest number of ratings.
 	Reducer output:   key: ART_AND_DESIGN, value: sumOfAllRatings (sum: 1451598)
 	Language:  We will be using Python for our MR project.
 	What kind of chart will you use to display your results?  Bar Graph
+	
+![Category Review Count](Max_reviews/maxReviewsBarChart.png?raw=true)
 
-For each category find the lowest size
+For each category find the lowest size.
 
 	Mapper input:  
 		-App: Draw & Paint
@@ -72,7 +74,7 @@ For each category find the lowest size
 	Language:  We will be using Python for our MR project.
 	What kind of chart will you use to display your results?  Bar Graph
 
-For each year find the total number of apps that are updated
+For each year find the total number of apps that are updated.
 
 	Mapper input:  
 		-App: Infinte Painter

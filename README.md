@@ -30,18 +30,12 @@ For each year find the total number of apps that are updated.
 For each category find the average ratings.
 
 	Mapper input:  	
-		-App
-		-Category
-		-Rating
-		-Reviews
-		-Size
-		-Installs
-		-Photo Editor & Candy Camera & Grid & ScrapBook
-		-ART_AND_DESIGN
-		-4.1
-		-159
-		-19M
-		-10,000+
+		-App: Photo Editor & Candy Camera & Grid & ScrapBook
+		-Category: ART_AND_DESIGN
+		-Rating: 4.1
+		-Reviews: 159
+		-Size: 19MB
+		-Installs: 10,000+
 
 	Mapper output / Reducer input:  key: ART_AND_DESIGN, value: 4.9 (example:ART_AND_DESIGN, 4.9 )
 	Reducer output:   key: ART_AND_DESIGN, value: 4.9 (average: 3.5 )
@@ -51,18 +45,12 @@ For each category find the average ratings.
 For each category find the maximum number of reviews
 
 	Mapper input:  
-		-App
-		-Category
-		-Rating
-		-Reviews
-		-Size
-		-Installs
-		-Coloring book moana
-		-ART_AND_DESIGN
-		-3.9
-		-967
-		-14M
-		-500,000+
+		-App: Coloring Book Moana
+		-Category: ART_AND_DESIGN
+		-Rating: 3.9
+		-Reviews: 967
+		-Size: 14MB
+		-Installs: 500,000+
 
 	Mapper output / Reducer input:  key: ART_AND_DESIGN, value: 967 (example:ART_AND_DESIGN, 967 )
 	Reducer output:   key: ART_AND_DESIGN, value: 967 (maximum: 967)
@@ -72,18 +60,12 @@ For each category find the maximum number of reviews
 For each category find the lowest size
 
 	Mapper input:  
-		-App
-		-Category
-		-Rating
-		-Reviews
-		-Size
-		-Installs
-		-Sketch - Draw & Paint
-		-ART_AND_DESIGN
-		-4.5
-		-215644
-		-25M
-		-50,000,000+
+		-App: Draw & Paint
+		-Category: ART_AND_DESIGN
+		-Rating: 4.5
+		-Reviews: 215,644
+		-Size: 25MB
+		-Installs: 50,000,000+
 
 	Mapper output / Reducer input:  key: ART_AND_DESIGN, value: 25 (example:ART_AND_DESIGN, 25 )
 	Reducer output:   key: ART_AND_DESIGN, value: 25 (minimum: 25 )
@@ -93,18 +75,12 @@ For each category find the lowest size
 For each year find the total number of apps that are updated
 
 	Mapper input:  
-		-App
-		-Size
-		-Installs
-		-Content Rating
-		-Genres
-		-Last Updated
-		-Infinite Painter
-		-29M
-		-1,000,000+
-		-Everyone
-		-Art & Design
-		-14-Jun-18
+		-App: Infinte Painter
+		-Category: ART_AND_DESIGN
+		-Size: 29MB
+		-Installs: 1,000,000+
+		-Content Rating: Everyone
+		-Last Updated: 14-Jun-18
 
 	Mapper output / Reducer input:  key: year, value: 10 (example:year, 10 )
 	Reducer output:   key: year, value: 10 (2018: 10 )

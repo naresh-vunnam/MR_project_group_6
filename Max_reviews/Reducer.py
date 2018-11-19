@@ -1,16 +1,15 @@
-s = open("sortedGooglePlayStore.csv")
-r = open("reducedGooglePlayStore.csv", "w")
+s = open("sortedGooglePlayStore.csv")   #opens file, read only
+r = open("reducedGooglePlayStore.csv", "w")  #creates or reopens export file
 
 thisKey =""
 thisValue =0.0
 
-for line in s:
+for line in s:      #reads through inFile (sorted values)
 
- data = line.strip().split(',')
- #store, amount
+ data = line.strip().split(',')        #splits data into seperate values
  category, reviews = data
 
- if category != thisKey:
+ if category != thisKey:                  #writes category value to key pair.
    if thisKey:
      # output the last key value pair result
      r.write(thisKey + ',' + str(thisValue)+'\n')

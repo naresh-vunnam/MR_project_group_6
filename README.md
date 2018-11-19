@@ -29,10 +29,8 @@ For each year find the total number of apps that are updated.
 
 For each category find the average ratings.
 
-	Mapper input:  
-	
+	Mapper input:  	
 		-App
-		
 		-Category
 		
 		-Rating

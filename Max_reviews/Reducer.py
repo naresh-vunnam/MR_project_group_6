@@ -1,4 +1,4 @@
-s = open("mappedGooglePlayStore.csv")
+s = open("sortedGooglePlayStore.csv")
 r = open("reducedGooglePlayStore.csv", "w")
 
 thisKey =""
@@ -8,15 +8,15 @@ for line in s:
 
  data = line.strip().split(',')
  #store, amount
- rating, reviews = data
+ category, reviews = data
 
- if rating != thisKey:
+ if category != thisKey:
    if thisKey:
      # output the last key value pair result
      r.write(thisKey + ',' + str(thisValue)+'\n')
 
    # start over when changing keys
-   thisKey = rating
+   thisKey = category
    thisValue = 0.0
  # apply the aggregation function
  thisValue += float(reviews)

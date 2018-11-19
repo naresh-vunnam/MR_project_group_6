@@ -1,4 +1,4 @@
-n = open("reducedGooglePlayStore.csv", "r")  # open file, read-only
+n = open("mappedGooglePlayStore.csv", "r")  # open file, read-only
 s = open("sortedGooglePlayStore.csv", "w") # open file, write
 lines = n.readlines()
 lines.sort()

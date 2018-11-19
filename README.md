@@ -21,7 +21,7 @@ This is a big data problem due to the “Volume” and “Variety” big V’s. 
 ## Big Data Questions
 
 For each category find the average ratings.
-For each category find the maximum number of reviews.
+For all categorys find category with the highest number of ratings.
 For each category find the lowest size.
 For each year find the total number of apps that are updated.
 
@@ -42,7 +42,7 @@ For each category find the average ratings.
 	Language:  We will be using Python for our MR project.
 	What kind of chart will you use to display your results?  Bar Graph
 
-For each category find the maximum number of reviews
+For all categorys find category with the highest number of ratings.
 
 	Mapper input:  
 		-App: Coloring Book Moana
@@ -53,7 +53,7 @@ For each category find the maximum number of reviews
 		-Installs: 500,000+
 
 	Mapper output / Reducer input:  key: ART_AND_DESIGN, value: 967 (example:ART_AND_DESIGN, 967 )
-	Reducer output:   key: ART_AND_DESIGN, value: 967 (maximum: 967)
+	Reducer output:   key: ART_AND_DESIGN, value: sumOfAllRatings (sum: 1451598)
 	Language:  We will be using Python for our MR project.
 	What kind of chart will you use to display your results?  Bar Graph
 

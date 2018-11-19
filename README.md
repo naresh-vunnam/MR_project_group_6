@@ -1,7 +1,9 @@
 # MR_project_group_6
 
 1. Google Play Store Apps Analysis
+
 	Big Data
+	
 	Developers: Jesse Alford II, Luke Carlson, Hitesh Kolla, and Naresh Vunnam
 
 2. https://github.com/S530492/MR_project_group_6

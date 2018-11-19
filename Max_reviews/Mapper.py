@@ -1,9 +1,9 @@
-f = open("d.txt","r")  # open file, read-only raw data
-o = open("o.txt", "w") # open file, write - just our key, value pairs
+f = open("googleplaystore.csv",encoding="Latin-1")  # open file, read-only raw data
+o = open("mappedGooglePlayStore.csv", "w") # open file, write - just our key, value pairs
 for line in f:  
-    data = line.strip().split("    ") 
-    if len(data) == 6:
-        date, time, store, item, cost, payment = data
-        o.write("{0}\t{1}\n".format(store, cost))
+    data = line.strip().split(",") 
+    if len(data) == 12:
+        app, category, rating, reviews, size, installs, appType, price, contentRating, genre, lastUpdate, currentVer = data
+        o.write("{0},{1}\n".format(category, reviews))
 f.close()
 o.close()

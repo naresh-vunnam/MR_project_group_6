@@ -32,33 +32,20 @@ For each category find the average ratings.
 	Mapper input:  	
 		-App
 		-Category
-		
 		-Rating
-		
 		-Reviews
-		
 		-Size
-		
 		-Installs
-		
 		-Photo Editor & Candy Camera & Grid & ScrapBook
-		
 		-ART_AND_DESIGN
-		
 		-4.1
-		
 		-159
-		
 		-19M
-		
 		-10,000+
 
 	Mapper output / Reducer input:  key: ART_AND_DESIGN, value: 4.9 (example:ART_AND_DESIGN, 4.9 )
-	
 	Reducer output:   key: ART_AND_DESIGN, value: 4.9 (average: 3.5 )
-	
 	Language:  We will be using Python for our MR project.
-	
 	What kind of chart will you use to display your results?  Bar Graph
 
 For each category find the maximum number of reviews

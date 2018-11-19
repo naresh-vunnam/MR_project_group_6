@@ -2,7 +2,7 @@
 
 ## Developers:
 
-Jesse Alford II, Luke Carlson, Hitesh Kolla, and Naresh Vunnam
+Naresh Vunnam, Jesse Alford II, Luke Carlson, and Hitesh Kolla
 
 ## Background
 

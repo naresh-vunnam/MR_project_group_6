@@ -90,7 +90,9 @@ For each year find the total number of apps that are updated.
 	Reducer output:   key: year, value: 10 (2018: 10 )
 	Language:  We will be using Python for our MR project.
 	What kind of chart will you use to display your results?  Bar Graph
-	Story: The bar graph below clearly demonstrates that the apps under the categories "Family" and "Games" are the ones with more 		than 1000 and 700 apps updated in the year 2018 respectively. Whereas categories like "LIBRARIES_AND_DEMO", "BEAUTY" and 		"EVENTS" are the ones with less than 50 apps updated in 2018.
+	Story: The bar graph below clearly demonstrates that the apps under the categories "Family" and "Games" are the ones with
+	morethan 1000 and 700 apps updated in the year 2018 respectively. Whereas categories like "LIBRARIES_AND_DEMO", "BEAUTY" and
+	"EVENTS" are the ones with less than 50 apps updated in 2018.
 	
 ![story_lastupdate](https://user-images.githubusercontent.com/31740220/49110669-bbb1d000-f253-11e8-924a-b20f31e5ddd6.JPG)
 

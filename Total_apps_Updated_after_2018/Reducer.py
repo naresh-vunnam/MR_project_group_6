@@ -28,7 +28,7 @@ for line in s:      #reads through inFile (sorted values)
 if newdate2 > newdate1:
   count += 1
 # output the final entry when done (outside for loop)
-r.write(thisKey + '\t' + str(count)+'\n')
+r.write(thisKey + ',' + str(count)+'\n')
 
 s.close()
 r.close()

@@ -9,7 +9,7 @@ for line in f:                     #reads in file line by line
      #takes in each value into data
      category = data[1]
      lastUpdate = data[10]
-     o.write("{0}\t{1}\n".format(category, lastUpdate))    #writes to file category and review
+     o.write("{0}\t{1}\n".format(category, lastUpdate))    #writes to file category and lastupdate
         
 f.close()
 o.close()

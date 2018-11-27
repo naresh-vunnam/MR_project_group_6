@@ -22,8 +22,9 @@ for line in s:      #reads through inFile (sorted values)
    # start over when changing keys
    thisKey = category
    thisValue = 0.0
- # apply the aggregation function
+ # apply the splitting the time function
  newdate2 = time.strptime(lastUpdate, "%d/%m/%Y")
+ # start comparing the dates
 if newdate2 > newdate1:
   count += 1
 # output the final entry when done (outside for loop)

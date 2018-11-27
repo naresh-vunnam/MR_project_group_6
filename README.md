@@ -90,3 +90,5 @@ For each year find the total number of apps that are updated.
 	Reducer output:   key: year, value: 10 (2018: 10 )
 	Language:  We will be using Python for our MR project.
 	What kind of chart will you use to display your results?  Bar Graph
+![story_lastupdate](https://user-images.githubusercontent.com/31740220/49109986-d3885480-f251-11e8-8ffc-02a3c8fd0317.JPG)
+

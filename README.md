@@ -15,7 +15,7 @@ https://www.kaggle.com/lava18/google-play-store-apps
 
 ## Big Data Qualifications
 
-This is a big data problem due to the “Volume” and “Variety” big V’s. This file contains over 70,000 records of varying information, making this a key candidate for a map reduce problem.
+This is a big data problem due to the “Volume” and “Variety” big V’s. This file contains over 70,000 records of varying information, making this a key candidate for a map reduce problem. Each record has 12 different attributes, most in different formats. These attributes include app category, name, review count, version, android version, dates, and more. 
 
 
 ## Big Data Questions
@@ -56,6 +56,7 @@ For all categorys find category with the highest number of ratings.
 	Reducer output:   key: ART_AND_DESIGN, value: sumOfAllRatings (sum: 1451598)
 	Language:  We will be using Python for our MR project.
 	What kind of chart will you use to display your results?  Bar Graph
+	Story: In the graph below it is apparent that game, communication, and social have the highest amount of reviews. It cannot be guaranteed from this graph alone, but it is likely that the high review count is directly related to the popularity of each category. 
 	
 ![Category Review Count](Max_reviews/maxReviewsBarChart.png?raw=true)
 

@@ -27,6 +27,7 @@ For each year find the total number of apps that are updated.
 
 ## Big Data Solutions
 
+### Hitesh Kolla
 For each category find the average ratings.
 
 	Mapper input:  	
@@ -46,6 +47,7 @@ For each category find the average ratings.
 
 ![story_average_rating 1](https://user-images.githubusercontent.com/31717045/49251004-04998e00-f3e6-11e8-8446-91f67407059d.JPG)
 
+### Jesse Alford II
 For all categorys find category with the highest number of ratings.
 
 	Mapper input:  
@@ -65,6 +67,7 @@ For all categorys find category with the highest number of ratings.
 	
 ![Category Review Count](Max_reviews/maxReviewsBarChart.png?raw=true)
 
+### Luke Carlson
 For each category find the lowest size.
 
 	Mapper input:  
@@ -80,6 +83,7 @@ For each category find the lowest size.
 	Language:  We will be using Python for our MR project.
 	What kind of chart will you use to display your results?  Bar Graph
 
+### Naresh Vunnam
 For each year find the total number of apps that are updated.
 
 	Mapper input:  
@@ -93,6 +97,14 @@ For each year find the total number of apps that are updated.
 	Mapper output / Reducer input:  key: year, value: 10 (example:year, 10 )
 	Reducer output:   key: year, value: 10 (2018: 10 )
 	Language:  We will be using Python for our MR project.
+### Execution
+	python mapper.py
+![screenshot 217](https://user-images.githubusercontent.com/31740220/49252000-82f72f80-f3e8-11e8-95a5-8a905fbaf2dd.png)
+
+	python sort.py
+	python reducer.py
+![screenshot 218](https://user-images.githubusercontent.com/31740220/49252059-a4f0b200-f3e8-11e8-9bf4-045e65e06f8c.png)
+	
 	What kind of chart will you use to display your results?  Bar Graph
 	Story: The bar graph below clearly demonstrates that the apps under the categories "Family" and "Games" are the ones with
 	morethan 1000 and 700 apps updated in the year 2018 respectively. Whereas categories like "LIBRARIES_AND_DEMO", "BEAUTY" and

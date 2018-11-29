@@ -41,6 +41,14 @@ For each category find the average ratings.
 	Mapper output / Reducer input:  key: ART_AND_DESIGN, value: 4.9 (example:ART_AND_DESIGN, 4.9 )
 	Reducer output:   key: ART_AND_DESIGN, value: 4.9 (average: 3.5 )
 	Language:  We will be using Python for our MR project.
+### Execution
+	python mapper.py
+![screenshot 206](https://user-images.githubusercontent.com/31717045/49252464-be462e00-f3e9-11e8-8880-06f298dd85d2.png)
+
+	python sort.py
+	python reducer.py
+![screenshot 208](https://user-images.githubusercontent.com/31717045/49252435-ab335e00-f3e9-11e8-9009-b814bbd92e73.png)
+	
 	What kind of chart will you use to display your results?  Bar Graph
 	Story: The following graph describes the average rating for each category where "Education" category has the highest average
 	rating with 4.36 and "Business" category has the lowest average rating with 2.71.  

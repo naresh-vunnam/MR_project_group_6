@@ -41,7 +41,8 @@ For each category find the average ratings.
 	Reducer output:   key: ART_AND_DESIGN, value: 4.9 (average: 3.5 )
 	Language:  We will be using Python for our MR project.
 	What kind of chart will you use to display your results?  Bar Graph
-	Story: 
+	Story: The following graph describes the average rating for each category where "Education" category has the highest average
+	rating with 4.36 and "Bussiness" category has the lowest average rating with 2.71.  
 
 ![story_average_rating 1](https://user-images.githubusercontent.com/31717045/49251004-04998e00-f3e6-11e8-8446-91f67407059d.JPG)
 

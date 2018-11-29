@@ -42,6 +42,8 @@ For each category find the average ratings.
 	Language:  We will be using Python for our MR project.
 	What kind of chart will you use to display your results?  Bar Graph
 
+![story_average_rating](https://user-images.githubusercontent.com/31717045/49250175-d5821d00-f3e3-11e8-94cb-c6981a0122cc.JPG)
+
 For all categorys find category with the highest number of ratings.
 
 	Mapper input:  

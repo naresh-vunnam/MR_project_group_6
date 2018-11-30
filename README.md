@@ -71,11 +71,11 @@ For all categorys find category with the highest number of ratings.
 	Language:  We will be using Python for our MR project.
 	
 	Python Mapper.py
-![mapperPNG](Max_reviews/mapperPNG.png?raw=true)
+![mapperPNG](Max_reviews/mapperPNGFix.png?raw=true)
 
 	Python Sort.py
 	Python Reducer.py
-![reducerPNG](Max_reviews/reducerPNG.png?raw=true)
+![reducerPNG](Max_reviews/reducerPNGFix.png?raw=true)
 
 	What kind of chart will you use to display your results?  Bar Graph
 	Story: In the graph below it is apparent that game, communication, and social have the highest amount of reviews. It cannot be

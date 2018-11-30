@@ -1,6 +1,6 @@
 # Map Reducing Google Play Store Applications and Analysis
 
-## Developers:
+## Developers
 
 Naresh Vunnam, Jesse Alford II, Luke Carlson, and Hitesh Kolla
 
@@ -24,6 +24,27 @@ For each category find the average ratings.
 For all categorys find category with the highest number of ratings.
 For each category find the lowest size.
 For each year find the total number of apps that are updated.
+
+
+## Setup
+
+Tools Needed: 
+
+Python 3
+
+Excel
+
+Data source mentioned above
+
+1. Pull the repository.
+
+2. Choose a big data solution to follow below.
+
+3. Run the mapper, sort, and reducer python file with the input directory set to your dataset.
+
+4. Use a bar graph to graph the reduced data file. Default settings were used in this repository.
+
+5. Complete!
 
 ## Big Data Solutions
 
@@ -70,6 +91,8 @@ For all categorys find category with the highest number of ratings.
 	Reducer output:   key: ART_AND_DESIGN, value: sumOfAllRatings (sum: 1451598)
 	Language:  We will be using Python for our MR project.
 	
+	
+## Execution
 	Python Mapper.py
 ![mapperPNG](Max_reviews/mapperPNGFix.png?raw=true)
 

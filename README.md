@@ -102,10 +102,7 @@ For all categorys find category with the highest number of ratings.
 
 	What kind of chart will you use to display your results?  Bar Graph
 	Story: In the graph below it is apparent that game, communication, and social have the highest amount of reviews. It cannot be
-		guaranteed from this graph alone, but it is likely that the high review count is directly related to the popularity of each category. 
-		
-		
-	First of the three, Beauty likely uses large files to allow huge high resolution camera changes. And large data logs of color. Communication likely has to keep map resources for offline. Events surprised me, creators likely keep the entire app available for use offline, requiring a much greater file size.
+		guaranteed from this graph alone, but it is likely that the high review count is directly related to the popularity of each category. First of the three, Beauty likely uses large files to allow huge high resolution camera changes. And large data logs of color. Communication likely has to keep map resources for offline. Events surprised me, creators likely keep the entire app available for use offline, requiring a much greater file size.
 
 	
 ![Category Review Count](Max_reviews/maxReviewsBarChart.png?raw=true)

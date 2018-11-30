@@ -127,9 +127,9 @@ For each category find the lowest size.
 ![mapperPNG](LowestSizeResources/check2.png?raw=true)
 	
 	What kind of chart will you use to display your results?  Bar Graph
-	Story: Most apps are designed to be as small in size as possible, but how small can some apps be? This graph shows that almost 		every app category has at least one app that is nearly one megabyte. However there are three exceptions, beauty, communication 		and events.
-	
-	Beauty likely uses large files to allow huge high resolution camera changes. And large data logs of color. Communication likely 	has to keep map resources for offline. Events surprised me, creators likely keep the entire app available for use offline, 		requiring a much greater file size.
+	Story: Most apps are designed to be as small in size as possible, but how small can some apps be? This graph shows that almost 	every app category has at least one app that is nearly one megabyte. However there are three exceptions, beauty, communication and events.
+
+
 
 	
 ![mapperPNG](LowestSizeResources/MinAppChart.png?raw=true)

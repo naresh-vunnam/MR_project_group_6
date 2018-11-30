@@ -69,6 +69,14 @@ For all categorys find category with the highest number of ratings.
 	Mapper output / Reducer input:  key: ART_AND_DESIGN, value: 967 (example:ART_AND_DESIGN, 967 )
 	Reducer output:   key: ART_AND_DESIGN, value: sumOfAllRatings (sum: 1451598)
 	Language:  We will be using Python for our MR project.
+	
+	Python Mapper.py
+![mapperPNG](Max_reviews/mapperPNG.png?raw=true)
+
+	Python Sort.py
+	Python Reducer.py
+![reducerPNG](Max_reviews/reducerPNG.png?raw=true)
+
 	What kind of chart will you use to display your results?  Bar Graph
 	Story: In the graph below it is apparent that game, communication, and social have the highest amount of reviews. It cannot be
 		guaranteed from this graph alone, but it is likely that the high review count is directly related to the popularity of each category. 

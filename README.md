@@ -141,7 +141,7 @@ For each category find the lowest size.
 ![mapperPNG](LowestSizeResources/MinAppChart.png?raw=true)
 
 ### Naresh Vunnam
-For each year find the total number of apps that are updated.
+For each year find the total number of apps that are updated for the year 2018.
 
 	Mapper input:  
 		-App: Infinte Painter
@@ -168,3 +168,8 @@ For each year find the total number of apps that are updated.
 	"EVENTS" are the ones with less than 50 apps updated in 2018.
 	
 ![story_lastupdate](https://user-images.githubusercontent.com/31740220/49110669-bbb1d000-f253-11e8-924a-b20f31e5ddd6.JPG)
+
+	Problems faced: As my question is "For each year find the total number of apps that are updated for the year 2018".
+	I have faced a problem with comparing the date. Because the dates are of different format in the data. So, I have 
+	changed all the dates to single format and in the reducer I have compared for the dates having the year 2018 which 
+	made it easy for me to get the expected results.

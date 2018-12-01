@@ -75,7 +75,12 @@ For each category find the average ratings.
 	rating with 4.36 and "Business" category has the lowest average rating with 2.71.  
 
 ![story_average_rating 1](https://user-images.githubusercontent.com/31717045/49251004-04998e00-f3e6-11e8-8446-91f67407059d.JPG)
-
+	
+	Problems faced: While doing the average ratings in our data we had some rows of data as NaN due to which the reducer 
+	output does not result in the complete values. So, in this scenario I have decided to make the data with NaN to '0'.
+	After doing this change	in the data the program worked well and gave me exact results that matches with the excel outputs. 
+	Comparing the outputs of reducer with excel gives you perfection.
+	
 ### Jesse Alford II
 For all categorys find category with the highest number of ratings.
 
@@ -163,4 +168,3 @@ For each year find the total number of apps that are updated.
 	"EVENTS" are the ones with less than 50 apps updated in 2018.
 	
 ![story_lastupdate](https://user-images.githubusercontent.com/31740220/49110669-bbb1d000-f253-11e8-924a-b20f31e5ddd6.JPG)
-

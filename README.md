@@ -168,7 +168,7 @@ For each year find the total number of apps that are updated for the year 2018.
 	morethan 1000 and 700 apps updated in the year 2018 respectively. Whereas categories like "LIBRARIES_AND_DEMO", "BEAUTY" and
 	"EVENTS" are the ones with less than 50 apps updated in 2018.
 	
-![story_lastupdate](https://user-images.githubusercontent.com/31740220/49110669-bbb1d000-f253-11e8-924a-b20f31e5ddd6.JPG)
+![story_lastupdate](https://user-images.githubusercontent.com/31740220/49470947-283b4a80-f7d1-11e8-9a38-0d72a0bb7df7.JPG)
 
 	Problems faced: As my question is "For each year find the total number of apps that are updated for the year 2018".
 	I have faced a problem with comparing the date. Because the dates are of different format in the data. So, I have 

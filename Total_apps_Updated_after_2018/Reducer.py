@@ -1,6 +1,7 @@
 s = open("sortedGooglePlayStore.txt")   #opens file, read only
 r = open("reducedGooglePlayStore.txt", "w")  #creates or reopens export file
 
+import re
 #import date
 from datetime import datetime as time
 thisKey =""
@@ -22,13 +23,11 @@ for line in s:      #reads through inFile (sorted values)
    # start over when changing keys
    thisKey = category
    thisValue = 0.0
- # apply the splitting the time function
- newdate2 = time.strptime(lastUpdate, "%d/%m/%Y")
  # start comparing the dates
-if newdate2 > newdate1:
-  count += 1
+ if(re.match(r'[0-9]{2}/[0-9]{2}/2018', lastUpdate, re.M|re.I)):
+   count += 1
 # output the final entry when done (outside for loop)
-r.write(thisKey + ',' + str(count)+'\n')
+r.write(thisKey + '\t' + str(count)+'\n')
 
 s.close()
 r.close()

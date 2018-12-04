@@ -18,7 +18,7 @@ for line in s:      #reads through inFile (sorted values)
  if category != thisKey:                  #writes category value to key pair.
    if thisKey:
      # output the last key value pair result
-     r.write(thisKey + ',' + str(count)+'\n')
+     r.write("{0}\t{1}\n".format(thisKey, str(count)))
 
    # start over when changing keys
    thisKey = category
@@ -27,8 +27,7 @@ for line in s:      #reads through inFile (sorted values)
  if(re.match(r'[0-9]{2}/[0-9]{2}/2018', lastUpdate, re.M|re.I)):
    count += 1
 # output the final entry when done (outside for loop)
-r.write(thisKey + '\t' + str(count)+'\n')
-
+r.write("{0}\t{1}\n".format(thisKey, str(count)))
 s.close()
 r.close()
 

@@ -165,10 +165,10 @@ For each year find the total number of apps that are updated for the year 2018.
 	
 	What kind of chart will you use to display your results?  Bar Graph
 	Story: The bar graph below clearly demonstrates that the apps under the categories "Family" and "Games" are the ones with
-	morethan 1000 and 700 apps updated in the year 2018 respectively. Whereas categories like "LIBRARIES_AND_DEMO", "BEAUTY" and
-	"EVENTS" are the ones with less than 50 apps updated in 2018.
+	morethan 600 and 400 apps updated in the year 2018 respectively. Whereas categories like "LIBRARIES_AND_DEMO", "BEAUTY" and
+	"WEATHER" are the ones with less than 30 apps updated in 2018.
 	
-![story_lastupdate](https://user-images.githubusercontent.com/31740220/49470947-283b4a80-f7d1-11e8-9a38-0d72a0bb7df7.JPG)
+![story_lastupdate](https://user-images.githubusercontent.com/31740220/49609905-8e0b0c00-f962-11e8-965e-e2dca9a96d8b.JPG)
 
 	Problems faced: As my question is "For each year find the total number of apps that are updated for the year 2018".
 	I have faced a problem with comparing the date. Because the dates are of different format in the data. So, I have 

@@ -139,7 +139,7 @@ For each category find the lowest size.
 
 
 	
-![mapperPNG](LowestSizeResources/MinAppChart.png?raw=true)
+![mapperPNG](LowestSizeResources/MinAppChartgg.png?raw=true)
 
 ### Naresh Vunnam
 For each year find the total number of apps that are updated for the year 2018.
